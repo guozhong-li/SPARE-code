@@ -1,0 +1,4 @@
+-r requirements.txt
+# Install the Triton version compatible with your PyTorch/CUDA build.
+# The original frozen GPU pilot used torch 2.2.1+cu121 and triton 2.2.0.
+triton>=2.2; sys_platform == "linux"

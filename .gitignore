@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+data/
+runs/
+*.pth
+*.pt
+*.log
+triton-cache/
