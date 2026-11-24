@@ -2,9 +2,6 @@
 
 Official GitHub repository for SPARE.
 
-The package includes the numerical model, symbolic operators, and an offline
-metadata adapter, with no dependency on parent experiment folders or cluster paths.
-
 ## Overall Framework
 
 ![Overview of SPARE](figures/overview.svg)
