@@ -9,8 +9,6 @@ metadata adapter, with no dependency on parent experiment folders or cluster pat
 
 ![Overview of SPARE](figures/overview.svg)
 
-[Vector PDF](figures/overview.pdf)
-
 Symbolic input filtering selects representative raw patches using frequency and
 diversity. Symbolic-aware grouped attention processes their numerical embeddings
 in size-constrained groups. Dashed arrows carry symbolic data; solid arrows carry
@@ -19,8 +17,6 @@ numerical data used by the forecasting network.
 ## Training Cost
 
 ![Total training time on eight forecasting datasets](figures/training_cost.svg)
-
-[Vector PDF](figures/training_cost.pdf)
 
 Total training time versus input length on ETTh1, ETTh2, ETTm1, ETTm2, Traffic,
 Electricity, Weather, and Exchange. The prediction horizon is 96; SPARE retains
